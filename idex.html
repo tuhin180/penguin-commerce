@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>penguin commerce</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+              penguin: "rgba(255, 251, 240, 1)",
+            },
+          },
+        },
+      }
+    </script>
+    <!-- font awesome  -->
+    <script
+      src="https://kit.fontawesome.com/6f7a3cf26e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <section class="penguin">
+        <div class="container mx-auto sm:flex items-center justify-around">
+          <div class="space-y-2">
+            <h1 class="text-2xl sm:text-5xl uppercase font-bold">
+              <span class="text-yellow-400">Be the penguin</span> <br />
+              Of winter
+            </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+            <button
+              class="uppercase bg-lime-600 py-4 px-7 text-white font-semibold rounded-xl"
+            >
+              <i class="fa-solid fa-cart-arrow-down"></i> Buy Now
+            </button>
+          </div>
+          <div>
+            <img src="images/model.png" alt="" />
+          </div>
+        </div>
+      </section>
+    </header>
+    <main class="container mx-auto">
+      <!-- cart section start here  -->
+      <section>
+        <h2 class="text-3xl">Woman jacket</h2>
+        <!-- jacket 1 -->
+        <div class="card grid grid-cols-3 gap-7">
+          <div class="item p-5 shadow-lg space-y-2">
+            <div class="img p-5 bg-slate-100 rounded-xl">
+              <img src="images/jacket-1.png" alt="" />
+            </div>
+            <h3 class="text-3xl font-semibold">yellow coast jacket</h3>
+            <p class="text-xl">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum,
+              accusantium.
+            </p>
+            <div class="buy-section flex justify-center gap-3">
+              <div class="price">
+                <span class="text-5xl font-semibold">$100</span>
+              </div>
+              <div class="buy-btn">
+                <button
+                  class="uppercase bg-lime-600 py-4 px-7 text-white font-semibold rounded-xl"
+                >
+                  <i class="fa-solid fa-cart-arrow-down"></i> Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="item p-4 shadow-lg space-y-2">
+            <div class="img p-5 bg-slate-100 rounded-xl">
+              <img src="images/jacket-2.png" alt="" />
+            </div>
+            <h3 class="text-3xl font-semibold">yellow coast jacket</h3>
+            <p class="text-xl">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum,
+              accusantium.
+            </p>
+            <div class="buy-section flex justify-center gap-3">
+              <div class="price">
+                <span class="text-5xl font-semibold">$100</span>
+              </div>
+              <div class="buy-btn">
+                <button
+                  class="uppercase bg-lime-600 py-4 px-7 text-white font-semibold rounded-xl"
+                >
+                  <i class="fa-solid fa-cart-arrow-down"></i> Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="item p-4 shadow-lg space-y-2">
+            <div class="img p-5 bg-slate-100 rounded-xl">
+              <img src="images/jacket-3.png" alt="" />
+            </div>
+            <h3 class="text-3xl font-semibold">yellow coast jacket</h3>
+            <p class="text-xl">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum,
+              accusantium.
+            </p>
+            <div class="buy-section flex justify-center gap-3">
+              <div class="price">
+                <span class="text-5xl font-semibold">$100</span>
+              </div>
+              <div class="buy-btn">
+                <button
+                  class="uppercase bg-lime-600 py-4 px-7 text-white font-semibold rounded-xl"
+                >
+                  <i class="fa-solid fa-cart-arrow-down"></i> Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
